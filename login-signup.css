@@ -1,0 +1,88 @@
+.container {
+  box-shadow: 5px 5px 12px #151515;
+  margin: 100px auto;
+  padding: 30px;
+  width: 450px;
+  text-align: center;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255, 0.2),
+    rgb(0, 0, 0, 0.2)
+  );
+  backdrop-filter: blur(12px);
+  border: 1px solid rgb(222, 213, 213, 0.3);
+}
+
+.container h1 {
+  color: rgb(224, 221, 221);
+  text-shadow: 3px 3px 5px #151515;
+  font-size: 50px;
+  font-weight: 600;
+  user-select: none;
+}
+
+.inputs-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 25px;
+}
+.inputs-box .input {
+  padding: 10px 10px;
+  gap: 20px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255, 0.2);
+  box-shadow: 3px 3px 6px #151515;
+}
+
+.inputs-box .input input {
+  width: 100%;
+  padding-left: 10px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+}
+
+.inputs-box .input input::placeholder {
+  color: rgb(255, 255, 255, 0.6);
+  font-weight: 300;
+}
+
+.forget-password a {
+  display: flex;
+  justify-content: start;
+  margin: 20px 10px;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.submit-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.submit-buttons .submit {
+  padding: 10px 20px;
+  width: 150px;
+  border: none;
+  outline: none;
+  background: linear-gradient(to top, #a22a06, #f88809);
+  color: aliceblue;
+  border-radius: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px #151515;
+}
+
+.submit-buttons .gray {
+  background: rgb(200, 197, 197, 0.9);
+  color: #151515;
+  box-shadow: 5px 5px 10px #151515;
+}
